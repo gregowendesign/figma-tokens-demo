@@ -1,1 +1,1 @@
-# design-tokens-demo
+# Figma to code Desing Tokens demo
