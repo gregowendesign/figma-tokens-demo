@@ -1,1 +1,1 @@
-# Figma to code Desing Tokens demo
+# Figma Tokens Demo
