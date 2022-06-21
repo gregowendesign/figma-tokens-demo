@@ -1,0 +1,15 @@
+:root {
+  
+  /* base */
+  --color-base-white: {{ tokens.color.base.white.value }};
+  --color-base-black: {{ tokens.color.base.black.value }};
+
+  /* reds */
+  --color-base-red-50: {{ tokens.color.base.red.50.value }};
+  
+
+  /* button */
+  --color-button-text-
+
+
+}

@@ -1,0 +1,20 @@
+
+:root {
+  
+  /* base */
+  --color-base-white: #ffffff;
+  --color-base-black: #000000;
+
+  /* reds */
+  --color-base-red-50: #f9dbd9;
+  
+
+  /* button */
+  --color-button-text-
+
+
+}
+body {
+  background: var(--color-base-black);
+  color: var(--color-base-white);
+}
