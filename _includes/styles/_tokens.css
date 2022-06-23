@@ -6,10 +6,79 @@
 
   /* reds */
   --color-base-red-50: {{ tokens.color.base.red.50.value }};
+  --color-base-red-100: {{ tokens.color.base.red.100.value }};
+  --color-base-red-200: {{ tokens.color.base.red.200.value }};
+  --color-base-red-300: {{ tokens.color.base.red.300.value }};
+  --color-base-red-400: {{ tokens.color.base.red.400.value }};
+  --color-base-red-500: {{ tokens.color.base.red.500.value }};
+  --color-base-red-600: {{ tokens.color.base.red.600.value }};
+  --color-base-red-700: {{ tokens.color.base.red.700.value }};
+  --color-base-red-800: {{ tokens.color.base.red.800.value }};
+  --color-base-red-900: {{ tokens.color.base.red.900.value }};
+
+  /* greys */
+  --color-base-grey-50: {{ tokens.color.base.grey.50.value }};
+  --color-base-grey-100: {{ tokens.color.base.grey.100.value }};
+  --color-base-grey-200: {{ tokens.color.base.grey.200.value }};
+  --color-base-grey-300: {{ tokens.color.base.grey.300.value }};
+  --color-base-grey-400: {{ tokens.color.base.grey.400.value }};
+  --color-base-grey-500: {{ tokens.color.base.grey.500.value }};
+  --color-base-grey-600: {{ tokens.color.base.grey.600.value }};
+  --color-base-grey-700: {{ tokens.color.base.grey.700.value }};
+  --color-base-grey-800: {{ tokens.color.base.grey.800.value }};
+  --color-base-grey-900: {{ tokens.color.base.grey.900.value }};
+
+  /* yellows */
+  --color-base-yellow-50: {{ tokens.color.base.yellow.50.value }};
+  --color-base-yellow-100: {{ tokens.color.base.yellow.100.value }};
+  --color-base-yellow-200: {{ tokens.color.base.yellow.200.value }};
+  --color-base-yellow-300: {{ tokens.color.base.yellow.300.value }};
+  --color-base-yellow-400: {{ tokens.color.base.yellow.400.value }};
+  --color-base-yellow-500: {{ tokens.color.base.yellow.500.value }};
+  --color-base-yellow-600: {{ tokens.color.base.yellow.600.value }};
+  --color-base-yellow-700: {{ tokens.color.base.yellow.700.value }};
+  --color-base-yellow-800: {{ tokens.color.base.yellow.800.value }};
+  --color-base-yellow-900: {{ tokens.color.base.yellow.900.value }};
   
 
-  /* button */
-  --color-button-text-
+  /* BUTTONS */
+
+  /* button text */
+  --color-button-text-default: {{ tokens.color.base.white.value }};
+  --color-button-text-hover: {{ tokens.color.base.white.value }};
+  --color-button-text-active: {{ tokens.color.base.white.value }};
+  --color-button-text-focus: {{ tokens.color.base.white.value }};
+  --color-button-text-disabled: {{ tokens.color.base.grey.600.value }};
+
+  /* button background */
+  --color-button-bg-default: {{ tokens.color.base.red.500.value }};
+  --color-button-bg-hover: {{ tokens.color.base.red.700.value }};
+  --color-button-bg-active: {{ tokens.color.base.red.800.value }};
+  --color-button-bg-focus: {{ tokens.color.base.red.500.value }};
+  --color-button-bg-disabled: {{ tokens.color.base.grey.200.value }};
 
 
+  /*  SPACING */
+  --spacing-base-xs: 4px;
+  --spacing-base-sm: 8px;
+  --spacing-base-default: 16px;
+  --spacing-base-lg: 24px;
+  --spacing-base-xl: 32px;
+  --spacing-base-2xl: 64px;
+  
+  /* padding x-axis */
+  --padding-button-horizontal-xs: var(--spacing-base-xs);
+  --padding-button-horizontal-sm: var(--spacing-base-sm);
+  --padding-button-horizontal-default: var(--spacing-base-default);
+  --padding-button-horizontal-lg: var(--spacing-base-lg);
+  --padding-button-horizontal-xl: var(--spacing-base-xl);
+  --padding-button-horizontal-2xl: var(--spacing-base-2xl);
+
+  /* padding y-axis */
+  --padding-button-vertical-xs: var(--spacing-base-xs) var(--spacing-base-xs);
+  --padding-button-vertical-sm: var(--spacing-base-sm) var(--spacing-base-sm);
+  --padding-button-vertical-default: var(--spacing-base-default) var(--spacing-base-default);
+  --padding-button-vertical-lg: var(--spacing-base-lg) var(--spacing-base-lg);
+  --padding-button-vertical-xl: var(--spacing-base-xl) var(--spacing-base-xl);
+  --padding-button-vertical-2xl: var(--spacing-base-2xl) var(--spacing-base-2xl);
 }

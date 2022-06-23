@@ -1,4 +1,35 @@
 body {
-  background: var(--color-base-black);
-  color: var(--color-base-white);
+  color: var(--color-base-black);
+  background: var(--color-base-white);
+  font-family: sans-serif;
+}
+
+.btn {
+  color: var(--color-button-text-default);
+  background-color: var(--color-button-bg-default);
+  padding: var(--padding-button-horizontal-default) var(--padding-button-horizontal-xl);
+  text-decoration: none;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.btn:hover {
+  color: var(--color-button-text-hover);
+  background-color: var(--color-button-bg-hover);
+}
+
+.btn:active {
+  color: var(--color-button-text-active);
+  background-color: var(--color-button-bg-active);
+}
+
+.btn:focus {
+  color: var(--color-button-text-focus);
+  background-color: var(--color-button-bg-focus);
+}
+
+.btn.disabled {
+  color: var(--color-button-text-disabled);
+  background-color: var(--color-button-bg-disabled);
+  cursor: not-allowed;
 }
