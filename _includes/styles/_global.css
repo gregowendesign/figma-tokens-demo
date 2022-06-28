@@ -7,7 +7,7 @@ body {
 .btn {
   color: var(--color-button-text-default);
   background-color: var(--color-button-bg-default);
-  padding: var(--padding-button-horizontal-default) var(--padding-button-horizontal-xl);
+  padding: var(--padding-button-horizontal-default);
   text-decoration: none;
   border-radius: 3px;
   display: inline-block;

@@ -3,7 +3,7 @@
   
   /* base */
   --color-base-white: #ffffff;
-  --color-base-black: #000000;
+  --color-base-black: #2AE152;
 
   /* reds */
   --color-base-red-50: #f9dbd9;
@@ -92,7 +92,7 @@ body {
 .btn {
   color: var(--color-button-text-default);
   background-color: var(--color-button-bg-default);
-  padding: var(--padding-button-horizontal-default) var(--padding-button-horizontal-xl);
+  padding: var(--padding-button-horizontal-default);
   text-decoration: none;
   border-radius: 3px;
   display: inline-block;
