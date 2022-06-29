@@ -2,7 +2,7 @@
 :root {
   
   /* base */
-  --color-base-white: #f3b8b3;
+  --color-base-white: #ffffff;
   --color-base-black: #000000;
 
   /* reds */
@@ -45,10 +45,10 @@
   /* BUTTONS */
 
   /* button text */
-  --color-button-text-default: #f3b8b3;
-  --color-button-text-hover: #f3b8b3;
-  --color-button-text-active: #f3b8b3;
-  --color-button-text-focus: #f3b8b3;
+  --color-button-text-default: #ffffff;
+  --color-button-text-hover: #ffffff;
+  --color-button-text-active: #ffffff;
+  --color-button-text-focus: #ffffff;
   --color-button-text-disabled: #747474;
 
   /* button background */
